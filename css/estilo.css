@@ -48,9 +48,40 @@ table {
 }
 /* -------------------Reset básico do CSS--------------------- */
 
-.titulo1 {
+h1 {
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 50px;
+}
+
+h2 {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 40px;
+}
+
+h3 {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 36px;
+}
+
+h4 {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 24px;
+}
+
+h5 {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 20px;
+}
+
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     size: 14px;
+
+}
+
+.artigo1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 12px;
 }
 
 .main-header {
@@ -61,4 +92,11 @@ table {
 
 
     font-family: Roboto, Oxygen, Ubuntu,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    color:aliceblue;
+    background-color: green;
+    text-align: center;
+    padding: 15px
 }
