@@ -48,20 +48,36 @@ table {
 }
 /* --------- Resete CSS ---------*/
 
+body {
+    background-color:blanchedalmond
+}
+
 .main-header {
+    border: 2px solid black;
     padding: 15px;
-    border: 5px red;
     background-color: yellow;
 }
 
-.main-menu{
+.main-menu {
     color: azure;
-    border: 5px;
+    border: 2px solid black;
     padding: 15px;
-    background-color: blue;
+    background-color: rgb(255, 144, 209);
+}
+
+aside {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(102, 156, 255);
+}
+
+.container {
+    border: 2px solid black;
+    
 }
 
 h1 {
+    border: 2px solid black;
     padding: 10px;
     color:antiquewhite;
     background-color: blueviolet;
@@ -70,23 +86,29 @@ h1 {
 }
 
 small {
+    border: 2px solid black;
     padding: 10px;
     color:black;
     background-color: blueviolet;
 }
 
 .artigo1 {
+    border: 2px solid black;
     padding: 10px;
     color: antiquewhite;
     background-color: brown;
 }
 
 .text-art1 {
+    border: 2px solid black;
+    padding-top: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     size: 12px;
 }
 
 footer {
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     text-align: center;
     color: aliceblue;
