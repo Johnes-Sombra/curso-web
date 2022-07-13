@@ -48,69 +48,126 @@ table {
 }
 /* --------- Resete CSS ---------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
+
 body {
     background-color:blanchedalmond
 }
 
 .main-header {
-    border: 2px solid black;
-    padding: 15px;
     background-color: yellow;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
+}
+
+.h1-header {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .main-menu {
     color: azure;
+    background-color: rgb(255, 113, 31);
     border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
-    background-color: rgb(255, 144, 209);
+    width: 90%;
 }
 
 aside {
-    border: 2px solid black;
-    padding: 15px;
     background-color: rgb(102, 156, 255);
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
 }
 
 .container {
+    background-color: #333;
     border: 2px solid black;
-    
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
 }
 
 h1 {
-    border: 2px solid black;
-    padding: 10px;
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 20px;
     color:antiquewhite;
-    background-color: blueviolet;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
+}
+
+small {
+    color:black;
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
     size: 20px;
 }
 
-small {
-    border: 2px solid black;
-    padding: 10px;
-    color:black;
-    background-color: blueviolet;
-}
-
 .artigo1 {
-    border: 2px solid black;
-    padding: 10px;
     color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 20px;
     background-color: brown;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
 }
 
 .text-art1 {
-    border: 2px solid black;
-    padding-top: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     size: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
 }
 
 footer {
-    border: 2px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
     text-align: center;
     color: aliceblue;
     background-color: green;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
 }
