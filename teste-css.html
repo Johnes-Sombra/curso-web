@@ -37,10 +37,10 @@
 
         <!-- Conteúdo do Blog -->
         <section>
-            <article class="artigo1">
-                <h1>Infection with Trypanosoma spp. in Platydoras armatulus (Siluriformes, Doradidae), in southwestern Amazon, Brazil</h1>
+            <article class="artigo">
+                <h1 class="h1art">Infection with Trypanosoma spp. in Platydoras armatulus (Siluriformes, Doradidae), in southwestern Amazon, Brazil</h1>
                 <small>Postado por Gabriele Teixeira</small>
-                <p class="text-art1">
+                <p class="text-art">
                     Trypanosoma is a hemoflagellate capable of infecting a wide variety 
                     of invertebrates and vertebrates, such as Neotropical freshwater fish. 
                     The present study described and morphologically compared Trypanosoma spp., 
@@ -76,47 +76,22 @@
 
         <!-- Formulários -->
         <form action="cadastro.php" method="POST" class="cadastrohtml">
-            <div>
-                <label>Primeiro Nome:</label>
+            <div class="form-group">
+                <label>Nome:</label>
                 <input type="text" placeholder="Insira seu nome" />
             </div>
 
-            <div>
-                <label>Segundo Nome:</label>
-                <input type="text" placeholder="Insira seu sobrenome" />
-            </div>
-
-            <div>
+            <div class="form-group">
                 <label>E-mail:</label>
                 <input type="email" placeholder="usuario@provedor.com"/>
             </div>
 
-            <div>
-                <label>Gênero:</label>
-                <select>
-                    <option value="feminino">Feminino</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="outro">Outro</option>
-                </select>
-            </div>
-
-            <!-- Outros tipos de formulários -->
-            <div>
-                <label>E-mail:</label>
-                <input type="email" />
-            </div>
-
-            <div>
-                <label>Data de nascimento:</label>
-                <input type="date" />
-            </div>
-
-            <div>
+            <div class="form-group">
                 <label>Mensagem:</label>
                 <textarea name="mensagem"></textarea>
             </div>
 
-            <input type="submit">
+            <input class="btenviar" type="submit">
         </form>
 
         <!-- Rodapé -->

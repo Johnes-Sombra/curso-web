@@ -1,52 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+    box-sizing: border-box
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* --------- Resete CSS ---------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
@@ -55,15 +9,14 @@ body {
 }
 
 .main-header {
-    background-color: yellow;
-    border: 2px solid black;
     box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: 0;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
+
 }
 
 .h1-header {
@@ -71,11 +24,12 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    size: 36px;
+    font-size: 60px;
+
 }
 
 .main-menu {
-    color: azure;
+    color: #333;
     background-color: rgb(255, 113, 31);
     border: 2px solid black;
     box-sizing: border-box;
@@ -84,12 +38,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
 }
 
 .main-aside {
     text-align: center;
-    background-color: rgb(7, 59, 155);
+    background-color: rgb(0, 118, 253);
     border: 2px solid black;
     box-sizing: border-box;
     margin-top: 5%;
@@ -97,7 +51,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
 }
 
 .main-aside ul {
@@ -114,58 +68,97 @@ body {
 }
 
 .main-aside ul a:hover {
-    color: rgb(255, 228, 51);
+    color: rgb(0, 78, 196);
     cursor: pointer;
 }
 
 
 .h2rsociais {
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    size: 28px;
+    font-size: 28px;
     color:rgb(255, 255, 255);
 }
 
 .socials {
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    size: 18px;
+    font-size: 18px;
     color:rgb(255, 255, 255);
 }
 
 .container {
-    background-color: #333;
+    background-color: rgb(0, 118, 253);
     border: 2px solid black;
     box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: auto;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 small {
     color:black;
+    font-size: 12px;
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    size: 20px;
+    box-sizing: border-box;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    width: 95%;
 }
 
-.artigo1 {
-    color: antiquewhite;
+.artigo {
+    color: rgb(0, 0, 0);
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    size: 20px;
-    background-color: brown;
+    background-color: rgb(214, 214, 214);
     border: 2px solid black;
     box-sizing: border-box;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
-    width: 90%;
+    width: 95%;
 }
 
-.text-art1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.h1art {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0.1%;
+    margin-bottom: 0;
+    margin-left: 1%;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 2%;
+    padding-bottom: 0;
+    width: 95%;
+}
+
+.text-art {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 0.1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    width: 95%;
+}
+
+.cadastrohtml {
+    font-family: Roboto 300, sans-serif;
+    background-color: rgb(0, 118, 253);
     size: 12px;
     border: 2px solid black;
     box-sizing: border-box;
@@ -174,7 +167,32 @@ small {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
+}
+
+.form-group {
+    font-family: Roboto 300, sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.cadastrohtml .form-group {
+    margin-bottom: 10px;
+}
+
+.cadastrohtml .form-group label {
+    display: block;
+}
+
+.cadastrohtml .form-group input {
+    padding: 10px;
+}
+
+.btenviar{
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    
 }
 
 footer {
@@ -189,5 +207,5 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    width: 90%;
+    width: 95%;
 }
