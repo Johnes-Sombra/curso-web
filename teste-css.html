@@ -62,15 +62,62 @@
         </section>
 
         <!-- Menu Lateral -->
-        <aside>
-            <ul>
-                <li><a href="artigo-001.html">Introdução a Informática</a></li>
-                <li><a href="artigo-002.html">Sistemas Operacionais</a></li>
-                <li><a href="artigo-003.html">Microsoft Windows</a></li>
-                <li><a href="artigo-004.html">GNU/Linux</a></li>
-                <li><a href="artigo-005.html">Apple MacOS</a></li>
+        <aside class="main-aside">
+            <h2 class="h2rsociais">Redes Sociais</h2>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/jhones.sombra" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/jhones.sombra/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/johnes-sombra/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com/johnes_sombra" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/Johnes-Sombra" target="_blank">Github</a></li>
+                
             </ul>
         </aside>
+
+        <!-- Formulários -->
+        <form action="cadastro.php" method="POST" class="cadastrohtml">
+            <div>
+                <label>Primeiro Nome:</label>
+                <input type="text" placeholder="Insira seu nome" />
+            </div>
+
+            <div>
+                <label>Segundo Nome:</label>
+                <input type="text" placeholder="Insira seu sobrenome" />
+            </div>
+
+            <div>
+                <label>E-mail:</label>
+                <input type="email" placeholder="usuario@provedor.com"/>
+            </div>
+
+            <div>
+                <label>Gênero:</label>
+                <select>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <!-- Outros tipos de formulários -->
+            <div>
+                <label>E-mail:</label>
+                <input type="email" />
+            </div>
+
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" />
+            </div>
+
+            <div>
+                <label>Mensagem:</label>
+                <textarea name="mensagem"></textarea>
+            </div>
+
+            <input type="submit">
+        </form>
 
         <!-- Rodapé -->
         <br />
