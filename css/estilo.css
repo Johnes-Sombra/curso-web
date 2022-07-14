@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 /* -------------------Reset básico do CSS--------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
 h1 {
     font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -79,24 +80,177 @@ p {
 
 }
 
-.artigo1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    size: 12px;
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color:blanchedalmond
 }
 
 .main-header {
-    border: 5px;
-    color: white;
-    background-color: blue;
-    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 95%;
+
+}
+
+.h1-header {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+
+}
+
+.main-menu {
+    color: #333;
+    background-color: rgb(255, 113, 31);
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 95%;
+}
+
+.main-aside {
+    text-align: center;
+    background-color: rgb(0, 118, 253);
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 95%;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+}
+
+.main-aside ul a:hover {
+    color: rgb(0, 78, 196);
+    cursor: pointer;
+}
 
 
-    font-family: Roboto, Oxygen, Ubuntu,'Open Sans', 'Helvetica Neue', sans-serif;
+.h2rsociais {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+}
+
+.socials {
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+
+.container {
+    background-color: rgb(0, 118, 253);
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+small {
+    color:black;
+    font-size: 12px;
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    width: 95%;
+}
+
+.artigo {
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(214, 214, 214);
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.h1art {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0.1%;
+    margin-bottom: 0;
+    margin-left: 1%;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 2%;
+    padding-bottom: 0;
+    width: 95%;
+}
+
+.text-art {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 0.1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    width: 95%;
 }
 
 footer {
-    color:aliceblue;
-    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 15px
+    color: aliceblue;
+    background-color: green;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-top: 2%;
+    padding-left: auto;
+    padding-right: auto; 
+    padding-bottom: 5%;
+    width: 95%;
 }
